@@ -28,17 +28,19 @@ Looking through the data, there are mixed results. I have analyzed/compensated f
 
 The following correlation heat map shows overall weak correlation throughout the dataset. This will obviously lead to difficulty in proper drug prediction.
 
-HEATMAP HERE
+![Heatmap](vitaldb_heatmap.png)
 
 ### Histograms
 
 The following drug histograms show that there is some stark variation in whether or not certain drugs are used, which will further complicate anesthesia plan development
 
 Propofol Histogram
-PPF HISTOGRAM
+
+![PPF Hist](ppf_hist.png)
 
 Rocuronium Histogram
-OTHER HISTOGRAM
+
+![Rocu Hist](rocu_hist.png)
 
 ## Model Accuracy
 
@@ -48,6 +50,6 @@ Overall, there is still more refinement to do, and I would still like to incorpo
 
 # Remaining Tasks and Next Steps
 
-I still have to develop the chatbot and then integrate the chatbot with the prediction models. Per my initial proposal timeline, my goal was to be done with all prediction models by this point. Based on the accuracy still needing improvement as well as the maintenance plan prediction development still needing work, I would say I am currently behind schedule. A portion of this is due to the dataset limitations, as it took me longer than I expected to work through how all the data related. However, I am encouraged by my recent developments and expect to be on track within the next two weeks.
+I still have to develop the chatbot and then integrate the chatbot with the prediction models. Per my initial proposal timeline, my goal was to be done with all prediction models by this point. Based on the accuracy still needing improvement as well as the maintenance plan prediction development still needing work, I would say I am currently behind schedule. A portion of this is due to the dataset limitations, as it took me longer than I expected to work through how all the data related. There is less anesthetic data than it initially seemed. This will obviously result in more limited anesthesia plans, though not to a scale to horribly impact accuracy (this is possibly due to just regional limitations of only certain drugs being used at a hospital. My goal is to implement the project such that, with additional data from other sources, other drug predictions would be possible in the future) However, I am encouraged by my recent developments and expect to be on track within the next two weeks.
 
 My current goal is to finish prediction modeling this week and start looking into chatbot development, finishing the simple chatbot next week and making sure the two are fully integrated by 20 April, giving me enough time to clean up any issues and finish the project recording in time.
